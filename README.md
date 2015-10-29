@@ -7,3 +7,9 @@
 This workflow will just query available jobs w/ your user and open/build the selected project.
 
 [info](https://github.com/Boulangerie/alfred-the-baker/blob/master/bob-jobs/) | [download](https://github.com/Boulangerie/alfred-the-baker/raw/master/bob-jobs/bobjobs.alfredworkflow)
+
+### JIRA Card
+
+Quickly open a JIRA card in your browser from its number, key or URL.
+
+[info](https://github.com/Boulangerie/alfred-the-baker/blob/master/jira-card/) | [download](https://github.com/Boulangerie/alfred-the-baker/raw/master/jira-card/JIRA.alfredworkflow)
