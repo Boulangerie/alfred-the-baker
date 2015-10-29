@@ -17,11 +17,15 @@ Color convertions: `c`, `hsl`, `rgb`, `#`
 
 ### [Currency Converter](https://github.com/BigLuck/alfred2-currencyconverter) ([Download](https://github.com/bigluck/alfred2-currencyconverter/blob/master/Currency%20Converter.alfredworkflow?raw=true)) by [@bigluck](https://github.com/bigluck)
 
+A simple Alfred 2 Currency Converter workflow's.
 
 ### [Datetime Format Converter](https://github.com/mwaterfall/alfred-datetime-format-converter) ([Download](https://github.com/mwaterfall/alfred-datetime-format-converter/blob/master/download/DatetimeFormatConverter.alfredworkflow?raw=true)) by [@mwaterfall](https://github.com/mwaterfall)
 
+Alfred 2 workflow for converting between timestamps and formatted datetime strings with ease.
 
 ### [Google Translate](https://github.com/thomashempel/AlfredGoogleTranslateWorkflow) ([Download](https://github.com/thomashempel/AlfredGoogleTranslateWorkflow/blob/master/Google%20Translate.alfredworkflow?raw=true)) by [@thomashempel](https://github.com/thomashempel)
+
+Open Alfred and type "translate" (or "gt") followed by the shortcode for the target language like "en" (english), "de" (german) or "it" (italian). 
 
 ### [IP Address](http://dferg.us/ip-address-workflow/) (1.2) ~ [Download](http://cloud.dferg.us/K9MA/download)
 
@@ -38,7 +42,5 @@ Shows your internal and external IP address ~ *by [@dferg](http://dferg.us/ip-ad
 by [@nathangreenstein](https://github.com/nathangreenstein)
 
 `kill {query}`
-
-![alt text][kill]
 
 ### []() ([Download]()) by [@](https://github.com/)
