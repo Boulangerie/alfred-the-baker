@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.teads.bob.alfredworkflow</string>
+	<key>connections</key>
+	<dict>
+		<key>301619E5-54AF-4C4C-B344-2E7C086C272F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>74157FF6-C4FA-487C-8CAD-E93EB4FE2F66</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6A55A2DA-3CE7-4945-AD6E-4548B8071A20</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Build the selected job.</string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>64291582-D418-42DB-B388-DE8EBA31E948</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>6A55A2DA-3CE7-4945-AD6E-4548B8071A20</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B31AC68E-DFBA-48B5-AF29-13364C720D57</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Bennnou (@firehist)</string>
+	<key>description</key>
+	<string>Bob - jenkins.teads.net search</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>bob (v1.0)</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>bob</string>
+				<key>queuedelaycustom</key>
+				<integer>1</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Updating database ...</string>
+				<key>script</key>
+				<string>$query = "{query}";
+require_once("jenkins.php");</string>
+				<key>subtext</key>
+				<string>Some useful Bob stuff</string>
+				<key>title</key>
+				<string>Search jenkins.teads.net</string>
+				<key>type</key>
+				<integer>1</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>301619E5-54AF-4C4C-B344-2E7C086C272F</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>74157FF6-C4FA-487C-8CAD-E93EB4FE2F66</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>$query = "{query}";
+
+$JENKINS_PROTOCOL = "https://";
+$JENKINS_USER = "firehist";
+$JENKINS_TOKEN = "86dc29fdb3efe76019e882cfcde5cd3d";
+$JENKINS_URL = "jenkins.teads.net";
+
+require_once("build.php");</string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6A55A2DA-3CE7-4945-AD6E-4548B8071A20</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>Build launched !</string>
+				<key>title</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>B31AC68E-DFBA-48B5-AF29-13364C720D57</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>plusspaces</key>
+				<false/>
+				<key>url</key>
+				<string>{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>64291582-D418-42DB-B388-DE8EBA31E948</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>cmd =&gt; build</string>
+	<key>uidata</key>
+	<dict>
+		<key>301619E5-54AF-4C4C-B344-2E7C086C272F</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>64291582-D418-42DB-B388-DE8EBA31E948</key>
+		<dict>
+			<key>ypos</key>
+			<real>270</real>
+		</dict>
+		<key>6A55A2DA-3CE7-4945-AD6E-4548B8071A20</key>
+		<dict>
+			<key>ypos</key>
+			<real>140</real>
+		</dict>
+		<key>74157FF6-C4FA-487C-8CAD-E93EB4FE2F66</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>B31AC68E-DFBA-48B5-AF29-13364C720D57</key>
+		<dict>
+			<key>ypos</key>
+			<real>140</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>github.com/firehist</string>
+</dict>
+</plist>
