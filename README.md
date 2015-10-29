@@ -6,9 +6,9 @@
 
 This workflow will just query available jobs w/ your user and open/build the selected project.
 
-### [Code Case](http://www.packal.org/workflow/code-case) ([Download](https://github.com/packal/repository/raw/master/fm.fastmail.dfay.codecase/code_case.alfredworkflow)) by [@dfay](http://www.packal.org/users/dfay)
+### [Code Case](https://github.com/Boulangerie/alfred-the-baker/blob/master/code-case/) ([Download](https://github.com/Boulangerie/alfred-the-baker/blob/master/code-case/Code%20Case.alfredworkflow))
 
-Case Converter for Code
+Convert the argument into another code case.
 
 ### [Colors](https://github.com/TylerEich/Alfred-Extras) ([Download](https://github.com/TylerEich/Alfred-Extras/blob/master/Workflows/Colors.alfredworkflow))
 by [@TylerEich](https://github.com/TylerEich)
