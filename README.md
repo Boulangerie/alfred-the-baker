@@ -27,9 +27,9 @@ Alfred 2 workflow for converting between timestamps and formatted datetime strin
 
 Open Alfred and type "translate" (or "gt") followed by the shortcode for the target language like "en" (english), "de" (german) or "it" (italian). 
 
-### [IP Address](http://dferg.us/ip-address-workflow/) (1.2) ~ [Download](http://cloud.dferg.us/K9MA/download)
+### [IP Address](http://dferg.us/ip-address-workflow/) - 1.2 ([Download](http://cloud.dferg.us/K9MA/download)) by [@dferg](http://dferg.us/ip-address-workflow/)
 
-Shows your internal and external IP address ~ *by [@dferg](http://dferg.us/ip-address-workflow/).*
+Shows your internal and external IP address.
 
 > Triggers: `ip`.
 
@@ -42,5 +42,7 @@ Shows your internal and external IP address ~ *by [@dferg](http://dferg.us/ip-ad
 by [@nathangreenstein](https://github.com/nathangreenstein)
 
 `kill {query}`
+
+## Template
 
 ### []() ([Download]()) by [@](https://github.com/)
