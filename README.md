@@ -35,6 +35,10 @@ Shows your internal and external IP address.
 
 ![IP Address Workflow](https://cloud.githubusercontent.com/assets/398893/3528930/2a1f6d90-0794-11e4-95d9-494b27070e2a.png)
 
+### [Jenkins Helper](https://github.com/julien-vidal/alfredworkflow-jenkins) ([Download](https://github.com/packal/repository/raw/master/fr.vidaljulien.jekinshelper/0.1-jenkins-helper.alfredworkflow))
+
+Use com.jyeakley.jenkins initial (codebase/assets) for now but will be refactored/updated with my needs
+
 ### [JIRA Card](https://github.com/Boulangerie/alfred-the-baker/blob/master/jira-card/) ([Download](https://github.com/Boulangerie/alfred-the-baker/raw/master/jira-card/JIRA.alfredworkflow))
 
 
