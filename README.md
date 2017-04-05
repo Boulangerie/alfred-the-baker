@@ -45,11 +45,15 @@ Use com.jyeakley.jenkins initial (codebase/assets) for now but will be refactore
 ### [Kill Process](http://www.packal.org/workflow/kill-process) ([Download](https://github.com/packal/repository/raw/master/com.ngreenstein.alfred-process-killer/kill_process.alfredworkflow))
 by [@nathangreenstein](https://github.com/nathangreenstein)
 
-`kill {query}`
+Kill Process makes it easy to find and kill misbehaving processes
 
-## [Devdocs](http://www.packal.org/workflow/devdocs) ([Download](https://github.com/packal/repository/raw/master/com.yannickglt.alfred2.devdocs/devdocs.alfredworkflow)) by [@yannickglt](https://github.com/yannickglt)
+### [Devdocs](http://www.packal.org/workflow/devdocs) ([Download](https://github.com/packal/repository/raw/master/com.yannickglt.alfred2.devdocs/devdocs.alfredworkflow)) by [@yannickglt](https://github.com/yannickglt)
 
-## [Slack](http://www.packal.org/workflow/slack) ([Download](https://github.com/packal/repository/raw/master/com.yannickglt.alfred2.devdocs/devdocs.alfredworkflow)) by [@yannickglt](https://github.com/yannickglt)
+Alfred workflow for devdocs.io documentations
+
+### [Slack](http://www.packal.org/workflow/slack) ([Download](https://github.com/packal/repository/raw/master/com.yannickglt.alfred2.devdocs/devdocs.alfredworkflow)) by [@yannickglt](https://github.com/yannickglt)
+
+Interact with slack through Alfred
 
 ## Template
 
