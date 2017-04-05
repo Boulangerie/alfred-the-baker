@@ -8,9 +8,9 @@ This workflow will just query available jobs w/ your user and open/build the sel
 
 ### [Code Case](https://github.com/Boulangerie/alfred-the-baker/blob/master/code-case/) ([Download](https://github.com/Boulangerie/alfred-the-baker/blob/master/code-case/Code%20Case.alfredworkflow))
 
-Convert the argument into another code case.
+Convert the argument into another code case ([source](http://www.packal.org/workflow/code-case)).
 
-### [Colors](https://github.com/TylerEich/Alfred-Extras) ([Download](https://github.com/TylerEich/Alfred-Extras/blob/master/Workflows/Colors.alfredworkflow))
+### [Colors](http://www.packal.org/workflow/colors) ([Download](https://github.com/packal/repository/raw/master/tylereich.colors/colors_v2.0.1.alfredworkflow))
 by [@TylerEich](https://github.com/TylerEich)
 
 Color convertions: `c`, `hsl`, `rgb`, `#`
@@ -19,7 +19,7 @@ Color convertions: `c`, `hsl`, `rgb`, `#`
 
 A simple Alfred 2 Currency Converter workflow's.
 
-### [Datetime Format Converter](https://github.com/mwaterfall/alfred-datetime-format-converter) ([Download](https://github.com/mwaterfall/alfred-datetime-format-converter/blob/master/download/DatetimeFormatConverter.alfredworkflow?raw=true)) by [@mwaterfall](https://github.com/mwaterfall)
+### [Datetime Format Converter](http://www.packal.org/workflow/datetime-format-converter) ([Download](https://github.com/packal/repository/raw/master/com.michaelwaterfall.datetime-format-converter/datetimeformatconverter.alfredworkflow)) by [@mwaterfall](https://github.com/mwaterfall)
 
 Alfred 2 workflow for converting between timestamps and formatted datetime strings with ease.
 
@@ -27,7 +27,7 @@ Alfred 2 workflow for converting between timestamps and formatted datetime strin
 
 Open Alfred and type "translate" (or "gt") followed by the shortcode for the target language like "en" (english), "de" (german) or "it" (italian). 
 
-### [IP Address](http://dferg.us/ip-address-workflow/) - 1.2 ([Download](http://cloud.dferg.us/K9MA/download)) by [@dferg](http://dferg.us/ip-address-workflow/)
+### [IP Address](http://www.packal.org/workflow/whats-my-ip) - 1.2 ([Download](https://github.com/packal/repository/raw/master/com.whatsmyip.shawn.patrick.rice/whats_my_ip.alfredworkflow)) by [@dferg](http://dferg.us/ip-address-workflow/)
 
 Shows your internal and external IP address.
 
@@ -42,10 +42,14 @@ Use com.jyeakley.jenkins initial (codebase/assets) for now but will be refactore
 ### [JIRA Card](https://github.com/Boulangerie/alfred-the-baker/blob/master/jira-card/) ([Download](https://github.com/Boulangerie/alfred-the-baker/raw/master/jira-card/JIRA.alfredworkflow))
 
 
-### [Kill Process](https://github.com/nathangreenstein/alfred-process-killer) ([Download](https://github.com/nathangreenstein/alfred-process-killer/raw/master/Kill%20Process.alfredworkflow))
+### [Kill Process](http://www.packal.org/workflow/kill-process) ([Download](https://github.com/packal/repository/raw/master/com.ngreenstein.alfred-process-killer/kill_process.alfredworkflow))
 by [@nathangreenstein](https://github.com/nathangreenstein)
 
 `kill {query}`
+
+## [Devdocs](http://www.packal.org/workflow/devdocs) ([Download](https://github.com/packal/repository/raw/master/com.yannickglt.alfred2.devdocs/devdocs.alfredworkflow)) by [@yannickglt](https://github.com/yannickglt)
+
+## [Slack](http://www.packal.org/workflow/slack) ([Download](https://github.com/packal/repository/raw/master/com.yannickglt.alfred2.devdocs/devdocs.alfredworkflow)) by [@yannickglt](https://github.com/yannickglt)
 
 ## Template
 
